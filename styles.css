@@ -30,7 +30,7 @@ nav a{
 border:1px solid black;
 max-width:91px;
 max-height: 45px;
-padding:9px 11px;
+padding:0.56rem 0.68rem;
 border-radius: 8px;
 font-size:1.2rem;
 }
@@ -38,7 +38,7 @@ font-size:1.2rem;
 border:1px solid black;
 max-width:91px;
 max-height: 45px;
-padding:9px 28px;
+padding:0.56rem 1.75rem;
 border-radius: 8px;
 color:#fff;
 background-color: #000;
@@ -82,16 +82,19 @@ section{
 .hero-btn p{
 display: flex;
 align-items: center;
-font-size: 1.15rem;
+font-size: 1.1rem;
+cursor:pointer;
 
 }
 .hero-btn button{
     width:148px;
     height: 48px;
     font-weight:600;
-    font-size: 1.15rem;
+    font-size: 1rem;
     border-radius: 8px;
     border:0;
+    cursor:pointer;
+
 }
 .bg-div{
     width:574px;
@@ -100,7 +103,7 @@ font-size: 1.15rem;
     margin:9.62rem 0 0 4.62rem;
     border-radius:20px; 
     position:relative;
-    margin-bottom:100px;
+    margin-bottom:6.25rem;
 
 }
 .bg-div img{
@@ -121,16 +124,70 @@ font-size: 1.15rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:repeat(3,1fr);
     gap:86px;
-    margin-left:8rem;
+    margin-left:7rem;
     width:1240px;
 }
 .card{
     width:584px;
     height: 412px;
     background: #fff;
+    border-radius: 20px;
 }
+.card:hover{
+background: #000
+;}
 @media(max-width:1024px){
     html{
         font-size:15px;
     }
+    header{
+        height: 66.95px;
+    }
+    nav{
+        gap:26px;
+    }
+    .sign-in{
+    border:1px solid black;
+    max-width:59.15px;
+    max-height: 29.25px;
+    }
+    .log-in{
+    max-width:59.15;
+    max-height: 29.25px;
+    }
+    .hero h1{
+        max-width:404.95px;
+
+    }
+    .hero > p{
+        max-width:396.5px;
+    }
+    .hero-btn{
+        width:188.5px;
+        height: 31.2px;
+    }
+    .hero-btn > p{
+        font-size:1rem;
+    }
+    .hero-btn button{
+        width:96.2px;
+        height: 31.2px;
+    }
+    .bg-div{
+        width:373px;
+        height: 325px;
+    }
+    .bg-div img{
+        width:358.15px;
+        height: 360px;
+        top:-35.75px;
+    }
+    .cards{
+        width:806px;
+    }
+    .card{
+        width:379px;
+        height: 267.8px;
+    }
+    
 }
