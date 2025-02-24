@@ -107,8 +107,8 @@ cursor:pointer;
 
 }
 .bg-div img{
-    width:551px;
-    height: 555px;
+    max-width:551px;
+    max-height: 555px;
     position:absolute;
     top:-55px;
 }
