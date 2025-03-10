@@ -1,0 +1,150 @@
+@media(max-width:1335px){
+    
+}
+@media(max-width:1280px){
+    html{
+        font-size:15px;
+    }
+    /* .bg-div {
+        width: 436.41px; 
+        height: 380.25px;
+    }
+    .bg-div img {
+        width: 418.04px;
+        height: 421.2px; 
+        top: -41.83px; 
+    } */
+    
+    
+    .cards{
+        width:90%;
+        
+    }
+    .card{
+        width:90%;
+    }
+    .card p{
+        width:80%;
+    }
+}
+@media(max-width:1024px){
+    html{
+        font-size:14px;
+    }
+    header{
+        height: 66.95px;
+    }
+    nav{
+        gap:26px;
+    }
+    .sign-in{
+    border:1px solid black;
+    max-width:59.15px;
+    max-height: 29.25px;
+    }
+    .log-in{
+    max-width:59.15;
+    max-height: 29.25px;
+    }
+    .hero h1{
+        max-width:404.95px;
+
+    }
+    .hero > p{
+        max-width:396.5px;
+    }
+    .hero-btn{
+        width:188.5px;
+        height: 31.2px;
+    }
+    .hero-btn > p{
+        font-size:1rem;
+    }
+    .hero-btn button{
+        width:96.2px;
+        height: 31.2px;
+    }
+    .bg-div{
+        width:373px;
+        height: 325px;
+    }
+    .bg-div img{
+        width:358.15px;
+        height: 360px;
+        top:-35.75px;
+    }
+    .cards{
+        width:806px;
+    }
+    .card{
+        width:379px;
+        height: 267.8px;
+    }
+    .card p{
+        left:32.2px;
+        bottom:33.6px;
+    }
+    
+}
+@media(max-width:768px){
+    html{
+        font-size:11px;
+    }
+    header{
+        height:50.2px;
+    }
+    nav{
+        gap:19.5px;
+    }
+    .sign-in{
+    border:1px solid black;
+    max-width:45.22px;
+    max-height: 21.93px;
+    }
+    .log-in{
+    max-width:44.36px;
+    max-height: 21.93px;
+    }
+    .hero h1{
+        max-width:303.7px;
+
+    }
+    .hero > p{
+        max-width:297.37px;
+    }
+    .hero-btn{
+        width:141.37px;
+        height: 23.4px;
+    }
+    .hero-btn > p{
+        font-size:1rem;
+    }
+    .hero-btn button{
+        width:72.15px;
+        height: 23.4px;
+    }
+    .bg-div{
+        width:279.75px;
+        height: 243px;
+    }
+    .bg-div img{
+        max-width:268.15px;
+        max-height: 270px;
+        top:-26px;
+    }
+    .cards{
+        max-width:604px;
+    }
+    .card{
+        max-width:284px;
+        width:100%;
+        height: 200.8px;
+    }
+    .card p{
+        left:10px;
+        bottom:0px;
+        max-width:284px;
+        max-height: 200.8px;
+        font-size:4rem;
+    }
+}

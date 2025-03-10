@@ -6,18 +6,29 @@
     padding:0;
     font-family: sans-serif;
 }
-
+/* header */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 3.93rem;
     height: 103px;
+    background:#fff;
+    position:fixed;
+    width:100vw;
+    z-index: 1;
+}
+.logo{
+    margin:0px 3.93rem;
+    width:69px;
+    height: 75px;
+
 }
 nav{
     display: flex;
     gap:40px;
     font-size:1.13rem;
+    margin:0px 3.93rem 0 0;
+
 }
 nav a{
     display: flex;
@@ -46,6 +57,7 @@ font-size:1.2rem;
 
    
 }
+/* body */
 section{
     background: var(--primary-color);
 
@@ -53,22 +65,21 @@ section{
 .section-1{
     display: flex;
     scroll-snap-align:start;
-
 }
 .heor{
     display: flex;
     justify-content: space-between;
-    
 }
 .hero h1{
     max-width:623px;
     font-size:2.85rem;
     color:#fff;
-    margin:11.68rem 0 0 3.93rem;
+    margin:18.1rem 0 0 3.93rem;
    
 }
 .hero > p{
     max-width:610px;
+    width:100%;
     font-size:1.15rem;
     color:#fff; 
     padding:1.5rem 0 0 3.93rem;
@@ -97,6 +108,9 @@ cursor:pointer;
     cursor:pointer;
 
 }
+.hero-img{
+    margin:6.5rem 0 0 0;
+}
 .bg-div{
     width:574px;
     height: 500px;
@@ -111,7 +125,8 @@ cursor:pointer;
     max-height: 555px;
     margin-top:-3.43rem;
 }
-/* our service section */
+
+            /* our service section */
 .section-2 h2{
     color:white;
     margin:0 0 5rem 3.93rem;
@@ -122,71 +137,403 @@ cursor:pointer;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:1fr;
-    gap:86px;
-    margin-left:7rem;
-    width:1240px;
+    gap:5.37rem;
+    margin-left:6.5rem;
+    max-width:1280px;
+    width:90%;
 }
 .card{
-    width:584px;
+    position:relative;
+    width:90%;
+    max-width:584px;
     height: 412px;
     background: #fff;
     border-radius: 20px;
+    
+}
+.card p{
+    width: 366px;
+    position: absolute;
+left: 46px;
+bottom: 48px;
+color: #000;
+font-family: Raleway,sans-serif;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .card:hover{
 background: #000
 ;}
-@media(max-width:1024px){
+.card img{
+    width: 71.929px;
+    height: 71.929px;
+    position: absolute;
+    left: 430px;
+    top: 289px;
+}
+.cards-btn{
+padding:5.5rem 0 0 53.1rem;
+width:431px;
+height: 56px;
+}
+.section-3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.plan-header{
+width: fit-content;
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 63.28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:133px 0 26px 0;
+
+}
+.section-3 p {
+    width: fit-content;
+    color: #FFF;
+text-align: center;
+font-family: "Figma Hand";
+font-size: 24.82px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin:0 0 47px 0;
+}
+.time-discount{
+    display: flex;
+align-items: center;
+gap: 5.828px;
+border-radius: 4.483px;
+background: #FFF;
+width: fit-content;
+}
+.time-discount div{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 4.483px;
+border-radius: 4px;
+background: #000;
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 13.625px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.half-circle {
+    width: 1440px;
+height: 672px;
+background: #B4B4FF;
+    clip-path: ellipse(50% 100% at 50% 100%);
+  }
+  
+
+@media (max-width:1280px){
     html{
-        font-size:15px;
+        font-size:15px; 
     }
     header{
-        height: 66.95px;
+        height: 91.38px;
+        width:100vw;
+    }
+    .logo{
+        margin:0px 3.49rem;
+        width:61.33px;
+        height: 66.67px;
     }
     nav{
-        gap:26px;
+        gap:35.56px;
+        margin:0px 3.49rem 0 0;
     }
     .sign-in{
-    border:1px solid black;
-    max-width:59.15px;
-    max-height: 29.25px;
+        max-width:80.89px;
+        max-height: 40px;
+        padding:0.5rem 0.6rem;
+        border-radius: 8px;
     }
     .log-in{
-    max-width:59.15;
-    max-height: 29.25px;
+        max-width:80.89px;
+        max-height: 40px;
+        padding:0.5rem 1.55rem;
+        border-radius: 8px;
     }
     .hero h1{
-        max-width:404.95px;
-
+        max-width:553.78px;
+        font-size:2.53rem;
+        margin:16.08rem 0 0 3.49rem;
     }
     .hero > p{
-        max-width:396.5px;
+        max-width:542.22px;
+        width:100%;
+        font-size:1.02rem;
+        padding:1.33rem 0 0 3.49rem;
     }
     .hero-btn{
-        width:188.5px;
-        height: 31.2px;
-    }
-    .hero-btn > p{
-        font-size:1rem;
+        width:257.78px;
+        height: 42.67px;
+        gap:8.89px;
+        padding:1.51rem 0 0 3.49rem;
     }
     .hero-btn button{
-        width:96.2px;
-        height: 31.2px;
+        width:131.11px;
+        height: 42.67px;
+        border-radius: 8px;
+    }
+    .hero-img{
+        margin:5.78rem 0 0 0;
     }
     .bg-div{
-        width:373px;
-        height: 325px;
+        width:510.22px;
+        height: 444.44px;
+        margin:8.55rem  4.11rem;
+        border-radius:20px; 
+        margin-bottom:5.55rem;
     }
     .bg-div img{
-        width:358.15px;
-        height: 360px;
-        top:-35.75px;
+        max-width:489.78px;
+        max-height: 493.33px;
+        margin-top:-3.05rem;
+    }
+    .section-2 h2{
+        margin:0 0 4.44rem 3.49rem;
+        font-size:2.38rem;
     }
     .cards{
-        width:806px;
+        gap:4.78rem;
+        margin-left:5.78rem;
+        max-width:1137.78px;
+        width:90%;
     }
     .card{
-        width:379px;
-        height: 267.8px;
+        max-width:519.11px;
+        height: 366.67px;
+        border-radius: 20px;
+    }
+    .card p{
+        width: 325.33px;
+        left: 40.89px;
+        bottom: 42.67px;
+        font-size: 3.56rem;
+    }
+    .card img {
+        width: 63.26px;
+        height: 63.26px;
+        left: 381.33px;
+        top: 256.44px;
+    }
+    .cards-btn {
+        padding: 4.89rem 0 0 47.22rem;
+        width: 383.11px;
+        height: 49.78px;
+    }
+}
+@media(max-width:1160px){
+        html{
+            font-size: 14px;
+        }
+        header{
+            height: 73.14px;
+            width:100vw;
+        }
+        .logo{
+            margin:0px 3.16rem;
+            width:55.69px;
+            height: 60.14px;
+        }
+        nav{
+            gap:32.05px;
+            margin:0px 3.16rem 0 0;
+        }
+        .sign-in{
+            max-width:72.91px;
+            max-height: 36.05px;
+            padding:0.45rem 0.54rem;
+            border-radius: 7.21px;
+        }
+        .log-in{
+            max-width:72.91px;
+            max-height: 36.05px;
+            padding:0.45rem 1.4rem;
+            border-radius: 7.21px;
+        }
+        .hero h1{
+            max-width:499.56px;
+            font-size:2.28rem;
+            margin:14.52rem 0 0 3.16rem;
+        }
+        .hero > p{
+            max-width:489.08px;
+            width:100%;
+            font-size:0.92rem;
+            padding:1.2rem 0 0 3.16rem;
+        }
+        .hero-btn{
+            width:232.48px;
+            height: 38.49px;
+            gap:8.02px;
+            padding:1.38rem 0 0 3.16rem;
+        }
+        .hero-btn button{
+            width:118.35px;
+            height: 38.49px;
+            border-radius: 7.21px;
+        }
+        .hero-img{
+            margin:5.22rem 0 0 0;
+        }
+        .bg-div{
+            width:460.12px;
+            height: 400.58px;
+            margin:7.71rem  3.71rem;
+            border-radius:18.02px; 
+            margin-bottom:5.01rem;
+        }
+        .bg-div img{
+            max-width:441.27px;
+            max-height: 444.52px;
+            margin-top:-2.75rem;
+        }
+        .section-2 h2{
+            margin:0 0 4.01rem 3.16rem;
+            font-size:2.15rem;
+        }
+        .cards{
+            gap:4.31rem;
+            margin-left:5.22rem;
+            max-width:1028.89px;
+            width:90%;
+        }
+        .card{
+            max-width:469.47px;
+            height: 331.79px;
+            border-radius: 18.02px;
+        }
+        .card p{
+            width: 293.97px;
+            left: 36.98px;
+            bottom: 38.49px;
+            font-size: 3.21rem;
+        }
+        .card img {
+            width: 57.92px;
+            height: 57.92px;
+            left: 307.78px;
+            top: 232.57px;
+        }
+        .cards-btn {
+            padding: 4.43rem 0 0 42.77rem;
+            width: 348.19px;
+            height: 45.14px;
+        }
     }
     
-}
+
+@media(max-width:1024px){
+    html{
+        font-size:13px;
+    }
+        header{
+            height: 50.79px;
+            width:100vw;
+        }
+        .logo{
+            margin:0px 2.72rem;
+            width:48.32px;
+            height: 52.26px;
+        }
+        nav{
+            gap:27.82px;
+            margin:0px 2.72rem 0 0;
+        }
+        .sign-in{
+            max-width:63.16px;
+            max-height: 31.25px;
+            padding:0.39rem 0.47rem;
+            border-radius: 6.25px;
+        }
+        .log-in{
+            max-width:63.16px;
+            max-height: 31.25px;
+            padding:0.39rem 1.21rem;
+            border-radius: 6.25px;
+        }
+        .hero h1{
+            max-width:432.64px;
+            font-size:1.97rem;
+            margin:12.56rem 0 0 2.72rem;
+        }
+        .hero > p{
+            max-width:423.68px;
+            width:100%;
+            font-size:0.8rem;
+            padding:1.04rem 0 0 2.72rem;
+        }
+        .hero-btn{
+            width:201.39px;
+            height: 33.33px;
+            gap:6.96px;
+            padding:1.2rem 0 0 2.72rem;
+        }
+        .hero-btn button{
+            width:102.57px;
+            height: 33.33px;
+            border-radius: 6.25px;
+        }
+        .hero-img{
+            margin:4.52rem 0 0 0;
+        }
+        .bg-div{
+            width:399.31px;
+            height: 347.22px;
+            margin:6.69rem  3.22rem;
+            border-radius:15.63px; 
+            margin-bottom:4.35rem;
+        }
+        .bg-div img{
+            max-width:383.69px;
+            max-height: 386.81px;
+            margin-top:-2.39rem;
+        }
+        .section-2 h2{
+            margin:0 0 3.5rem 2.72rem;
+            font-size:1.88rem;
+        }
+        .cards{
+            gap:3.77rem;
+            margin-left:4.52rem;
+            max-width:891.67px;
+            width:90%;
+        }
+        .card{
+            max-width:406.6px;
+            height: 287.32px;
+            border-radius: 15.63px;
+        }
+        .card p{
+            width: 254.78px;
+            left: 32.03px;
+            bottom: 33.33px;
+            font-size: 2.78rem;
+        }
+        .card img {
+            width: 42.41px;
+            height: 42.41px;
+            left: 273.50px;
+            top: 170.76px;
+        }
+        .cards-btn {
+            padding: 3.82rem 0 100px 36.88rem;
+            width: 300.69px;
+            height: 38.89px;
+        }
+    }
+    
