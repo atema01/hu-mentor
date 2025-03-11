@@ -140,19 +140,9 @@ cursor:pointer;
     
 }
 .cards{
-<<<<<<< HEAD
-   display: grid;
+   display: flex;
    grid-template-columns: repeat(2,1fr);
    gap:10px
-=======
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:1fr;
-    gap:5.37rem;
-    margin-left:6.5rem;
-    max-width:1280px;
-    width:90%;
->>>>>>> 9c4064f92a83ee00ac3bbc4925fa15d9857ff896
 }
 .card{
     position:relative;
