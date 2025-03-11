@@ -33,7 +33,7 @@ card3.addEventListener("mouseenter", ()=>{
     card3.classList.remove("unhover-text");
 })
 card3.addEventListener("mouseleave",()=>{
-    card3.innerHTML="<p>Application Assistance</p><img src='assets/arrow_forward.svg'>"
+    card3.innerHTML="<p>English Proficiency Test Preparation</p><img src='assets/arrow_forward.svg'>"
     card3.classList.remove("hover-text");
     card3.classList.add("unhover-text");
     
@@ -44,7 +44,7 @@ card4.addEventListener("mouseenter", ()=>{
     card4.classList.remove("unhover-text");
 })
 card4.addEventListener("mouseleave",()=>{
-    card4.innerHTML="<p>Application Assistance</p><img src='assets/arrow_forward.svg'>"
+    card4.innerHTML="<p>Essay Review and Feedback</p><img src='assets/arrow_forward.svg'>"
     card4.classList.remove("hover-text");
     card4.classList.add("unhover-text");
     
