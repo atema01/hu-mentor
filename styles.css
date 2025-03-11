@@ -140,9 +140,10 @@ cursor:pointer;
     
 }
 .cards{
-   display: flex;
-   grid-template-columns: repeat(2,1fr);
-   gap:10px
+display:grid;  
+grid-template-columns: repeat(2 ,1fr);
+gap:4.78rem 0;
+margin-left:100px;
 }
 .card{
     position:relative;
