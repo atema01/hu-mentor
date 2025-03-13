@@ -6,7 +6,7 @@ const card3= document.querySelector(".card3")
 const card4= document.querySelector(".card4")
 
 card1.addEventListener("mouseenter", ()=>{
-    card1.innerHTML="our team support students in every step of teh application process, from drafting personal statements to preparing required documents making the journy smoother and more successful. ";
+    card1.innerHTML="our team support students in every step of the application process, from drafting personal statements to preparing required documents making the journy smoother and more successful. ";
     card1.classList.add("hover-text");
     card1.classList.remove("unhover-text");
 })
