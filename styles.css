@@ -275,3 +275,25 @@ footer{
     color:#fff;
     
 }
+/* login page style */
+.login-body {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}    
+
+.container{
+    width:79.29vw;
+    display: flex;
+    
+}
+.container form{
+    width:39.14%;
+    background: #fff;
+
+}
+.welcome{
+    width:60.48%;
+    background: #B4B4FF;
+}
